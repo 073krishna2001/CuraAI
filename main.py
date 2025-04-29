@@ -43,7 +43,7 @@ def get_base64_image(image_path):
 
 # Welcome Page
 if st.session_state.page == 'welcome':
-    image_path = 'D:/study/8th semester/major_project/final_project/try_11/front_bg.jpg'  # Your downloaded image path
+    image_path = 'front_bg.jpg'  # Your downloaded image path
     encoded_bg = get_base64_image(image_path)
 
     # Set the background image using base64 encoding
