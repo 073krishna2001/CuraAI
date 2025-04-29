@@ -89,9 +89,9 @@ if st.session_state.page == 'welcome':
 working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # loading the saved models
-breast_cancer_model = pickle.load(open(f'D:/study/8th semester/major_project/final_project/try_11/saved_model/breast_cancer_model.sav', 'rb'))
-diabetes_model = pickle.load(open(f'D:/study/8th semester/major_project/final_project/try_11/saved_model/diabetes_model.sav', 'rb'))
-heart_disease_model = pickle.load(open(f'D:/study/8th semester/major_project/final_project/try_11/saved_model/heart_disease_model.sav', 'rb'))
+breast_cancer_model = pickle.load(open(f'saved_model/breast_cancer_model.sav', 'rb'))
+diabetes_model = pickle.load(open(f'saved_model/diabetes_model.sav', 'rb'))
+heart_disease_model = pickle.load(open(f'saved_model/heart_disease_model.sav', 'rb'))
 
 # Header Section
 st.title("\U0001F468‍⚕️ Health Assistant")
